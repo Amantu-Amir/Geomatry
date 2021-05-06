@@ -47,7 +47,7 @@ int main(){
 		double a=sqrt(pow(abs(ox-ax),2)+pow(abs(oy-ay),2));
 		double b=sqrt(pow(abs(ox-bx),2)+pow(abs(oy-by),2));
 		double c=sqrt(pow(abs(ax-bx),2)+pow(abs(ay-by),2));
-		double angle=acos(((a*a)+(b*b)-(c*c))/(2*a*b));
+		double angle=acos(((a*a)+(b*b)-(c*c))/(2*a*b));	//cosine law to find the angle
 		double arc=a*angle;
 		printf("Case %lld: %0.10f\n",T,arc);
 	}
